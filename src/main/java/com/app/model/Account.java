@@ -1,15 +1,9 @@
 package com.app.model;
 
-import javax.persistence.*;
-
 import com.jk.util.jpa.BaseEntity;
 
-@Entity
-@Table(name="account")
 public class Account extends BaseEntity {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 
 	private String number;
