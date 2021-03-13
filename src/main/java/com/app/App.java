@@ -1,20 +1,19 @@
 package com.app;
 
-import com.app.person.Model;
-import com.app.person.ServiceClient;
 import com.jk.util.JK;
+import com.jk.web.services.client.JKServiceClient;
 
 public class App {
 	public static void main(String[] args) {
-		ServiceClient client=new ServiceClient();
-		
+		JKServiceClient<Person> client = new JKServiceClient<>("http://localhost:8080/app/example", Person.class);
+
 		String response = client.callJsonAsString("/hello");
 		JK.print(response);
 
 		String response2 = client.callJsonAsString("/hello/Jalal");
 		JK.print(response2);
 
-		Model p = new Model();
+		Person p = new Person();
 		p.setName("Jalal");
 		p.setAge(40);
 
