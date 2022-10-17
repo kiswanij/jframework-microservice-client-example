@@ -1,7 +1,7 @@
 package com.app;
 
-import com.jk.util.JK;
-import com.jk.web.services.client.JKServiceClient;
+import com.jk.core.util.JK;
+import com.jk.services.client.JKServiceClient;
 
 public class App {
 	public static void main(String[] args) {
