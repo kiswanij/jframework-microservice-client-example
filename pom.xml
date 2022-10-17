@@ -15,10 +15,7 @@
 			<artifactId>jk-framework-service-client</artifactId>
 			<version>${jk-framework.version}</version>
 		</dependency>
-
-
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
