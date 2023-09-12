@@ -1,8 +1,8 @@
-# JKFramework Service Client Example
+# JFramework Service Client Example
 _Last updated: 2022-11-26_
 
 
-This repository contains a _JKFramework-ServiceClient_ example.
+This repository contains a _JFramework-ServiceClient_ example.
 
 ## Prerequisites:
 - JDK 17+ Installed
