@@ -1,5 +1,6 @@
 # JFramework Service Client Example
-_Last updated: 2022-11-26_
+
+_Last updated: Aug 20, 2025_
 
 
 This repository contains a _JFramework-ServiceClient_ example.
